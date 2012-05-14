@@ -7,6 +7,7 @@ gem 'rails', '3.2.3'
 group :development do
   gem 'sqlite3'
   gem 'rspec-rails','2.9.0'
+  gem 'guard-rspec','0.5.5'
 end
 
 
@@ -26,11 +27,16 @@ end
 gem 'jquery-rails'
 
 group :test do
+  gem 'rspec-rails','2.9.0'
   gem 'capybara','1.1.2'
+  gem 'rb-inotify','0.8.8'
+  gem 'libnotify','0.5.9'
+  gem 'guard-spork','0.3.2'
+  gem 'spork','0.9.0'
 end
 
 group :production do
-  gem 'pg','0.12.2'
+    gem 'pg','0.12.2'
 end
 
 # To use ActiveModel has_secure_password
