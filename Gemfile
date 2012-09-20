@@ -27,6 +27,8 @@ end
 
 gem 'jquery-rails'
 
+gem 'annotate' , '~> 2.4.1.beta', group: :development  
+
 group :test do
   gem 'rspec-rails','2.9.0'
   gem 'capybara','1.1.2'
@@ -34,6 +36,7 @@ group :test do
   gem 'libnotify','0.5.9'
   gem 'guard-spork','0.3.2'
   gem 'spork','0.9.0'
+  gem 'sqlite3'
 end
 
 group :production do
