@@ -39,6 +39,7 @@ group :test do
   gem 'guard-spork','0.3.2'
   gem 'spork','0.9.0'
   gem 'sqlite3'
+  gem 'factory_girl_rails' , '4.1.0'
 end
 
 group :production do
