@@ -1,0 +1,1 @@
+2012-09-20 16:59:05	162	videoblogs_airtel_in	9633455858	KL	1.5	SEF-FORM	Error_code:1**Error_message:success**Transaction_id:539794379	4eecff00-e544-012f-cdc0-525400eb98f0	vas-netmagic-bangalore-cloud-factory-4	hotnews	SEF-FORM_F
